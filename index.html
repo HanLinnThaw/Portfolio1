@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=playfair:wght@400;700&display=swap" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/css/st.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Portfolio</div>
+      <ul class="nav-links">
+        <li class="nav-box"><a href="#home">Home</a></li>
+        <li class="nav-box"><a href="#about">About</a></li>
+        <li class="nav-box"><a href="#projects">Projects</a></li>
+        <li class="nav-box"><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">☰</div>
+  </nav>
+    
+<section id="home" class="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-12 cls">
+        <div class="hero-content">
+          <h2 class="animate-text">Hi,I'm Han Linn Thaw</h2>
+          <h1 class="type" aria-label="Hi! I'm a developer">
+              I'm a&nbsp;<span class="typewriter"></span>
+            </h1>
+          <h2 class="animate-text">Freelancer</h2>
+          <p class="animate-text">Designing and Developing Website!</p>
+          <p class="ic">
+            <a href="https://www.facebook.com/" id="iconlink" class="iconLink">
+              <img src="/photo/m.png" class="icon1" alt="My Icon" width="30" height="30">
+            </a>
+            <a href="https://www.instagram.com/hanlinn_95?igsh=MWV3MnVlZWFoMnE2eg%3D%3D&utm_source=qr" id="iconlink1" class="iconLink">
+              <img src="/photo/i.png" class="icon1"  alt="My Icon" width="30" height="30">
+            </a>
+            <a href="https://github.com/HanLinnThaw" id="iconlink2" class="iconLink">
+              <img src="/photo/git.png" class="icon1" alt="My Icon" width="30" height="30">
+            </a>
+            <a href="https://www.linkedin.com/in/han-lin-83252833a/" id="iconlink3" class="iconLink">
+              <img src="/photo/l.png" class="icon1" alt="My Icon" width="30" height="30">
+            </a>
+          </p>
+          <a href="/photo/hanlinnthawcv.pdf" download="hanlinnthawcv.pdf" class="btn btn-primary">Download CV!</a>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12 photo-column">
+        <img src="/photo/H.jpg" alt="A professional photo of [Your Name]" class="img-flu">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="about" class="section">
+<h2 class="education">About Education</h2>
+<div class="about-content">
+  <p>I'm a passionate web developer with experience in creating responsive and beautiful websites.</p>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-header">
+        <div class="timeline-title">Higher National Certificate (HNC)</div>
+        <div class="timeline-date">2021</div>
+      </div>
+      <div class="timeline-content">Higher National Certificate (HNC) which is a level 4 qualification in UK. That was delivered by BTEC Pearson at Info Myanmar University (Myanmar) . </div>
+    </div>
+
+    <div class="timeline-item" id="time1">
+      <div class="timeline-header">
+        <div class="timeline-title">Higher National Diploma in Computing (Software Engineering)</div>
+        <div class="timeline-date">2022</div>
+      </div>
+      <div class="timeline-content">Higher National Diploma (HND) which is a level 5 qualification in UK. That was delivered by BTEC Pearson at Info Myanmar University (Myanmar).</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-header">
+        <div class="timeline-title">UI/UX Designer Certificate (Fairway Technology)</div>
+        <div class="timeline-date">2023</div>
+      </div>
+      <div class="timeline-content">Got the UI/UX design course certificate from Fairway Technology (Myanmar). </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-header">
+        <div class="timeline-title">Professional Web Developer (Fairway Technology) </div>
+        <div class="timeline-date">2023</div>
+      </div>
+      <div class="timeline-content">Got the Professional Web Developer course certificate from Fairway Technology (Myanmar). </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-header">
+        <div class="timeline-title">Bachelor of Science (BSc Computing) </div>
+        <div class="timeline-date">2025</div>
+      </div>
+      <div class="timeline-content">BSc Computing Degree from Edinburgh Napier University (UK) with Distinction in 2025. </div>
+    </div>
+  </div>
+</div>
+
+<div class="skill">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-7">
+      <h3 class="small-title">Hard Skills</h3>
+      <div class="row ">
+                <!-- First Circle -->
+    <div class="col-12 col-sm-6 col-md-6 mb-6 circle">
+      <div class="contain">
+        <h3>Python</h3>
+        <div class="first-circle">
+          <div class="outer-circle">
+            <div class="inner-circle">
+              <div class="number" id="number"></div>
+            </div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+              <linearGradient id="GradientColor1">
+                <stop offset="0%" stop-color="#FF8008" />
+                <stop offset="100%" stop-color=" #FFC837" />
+              </linearGradient>
+            </defs>
+            <circle class="circle" cx="80" cy="80" r="70" stroke-linecap="round"  />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Circle -->
+    <div class="col-12 col-sm-6 col-md-6 mb-6 circle">
+      <div class="contain">
+        <h3>Bootstrap</h3>
+        <div class="second-circle">
+          <div class="outer-circle">
+            <div class="inner-circle">
+              <div id="number1"></div>
+            </div>
+          </div>
+          <svg class="svg1" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+              <linearGradient id="GradientColor2">
+                <stop offset="0%" stop-color="#EB3349" />
+                <stop offset="100%" stop-color="#F45C43" />
+              </linearGradient>
+            </defs>
+            <circle class="circle1" cx="80" cy="80" r="70" stroke-linecap="round" />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third Circle -->
+    <div class="col-12 col-sm-6 col-md-6 mb-6 circle">
+      <div class="contain">
+        <h3>PHP</h3>
+        <div class="third-circle">
+          <div class="outer-circle">
+            <div class="inner-circle">
+              <div id="number2"></div>
+            </div>
+          </div>
+          <svg class="svg2" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="0%" stop-color="#e91e63" />
+                <stop offset="100%" stop-color="#673ab7" />
+              </linearGradient>
+            </defs>
+            <circle class="circle2" cx="80" cy="80" r="70" stroke-linecap="round" />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fourth Circle -->
+    <div class="col-12 col-sm-6 col-md-6 mb-6 circle">
+      <div class="contain">
+        <h3>Laravel</h3>
+        <div class="forth-circle">
+          <div class="outer-circle">
+            <div class="inner-circle">
+              <div id="number3"></div>
+            </div>
+          </div>
+          <svg class="svg3" xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+              <linearGradient id="GradientColor4">
+                <stop offset="0%" stop-color="#ec008c" />
+                <stop offset="100%" stop-color="#fc6767" />
+              </linearGradient>
+            </defs>
+            <circle class="circle3" cx="80" cy="80" r="70" stroke-linecap="round"  />
+          </svg>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="col-lg-5">
+      <h3 class="small-title" >Soft Skills</h3>
+      <div class="soft-skills">
+        <ul class="list">
+          <li class="shopping">
+            <span class="title">Communication</span>
+          </li>
+          <li class="personal">
+            <span class="title">Problem Solving</span>
+          </li>
+          <li class="collab">
+            <span class="title">Decision-Making</span>
+          </li>
+          <li class="shopping">
+            <span class="title">Collaboration</span>
+          </li>
+          <li class="personal">
+            <span class="title">Time Management</span>
+          </li>
+          <li class="collab">
+            <span class="title">Creativity</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+</section>
+
+<section id="projects" class="section">
+<h2>Projects</h2>
+<div class="project-grid">
+<div class="row">
+  <div class="col-lg-6 col-12 col-md-6 d-flex">
+    <div class="project-card d-flex flex-column">
+      <a href="https://github.com/HanLinnThaw" class="project-link" id="project-link">
+      <div class="row">
+        <div class="col-8">
+          <div class="project-title">
+            <h4>Music Streaming Website</h4>
+          </div>
+          <p class="unique">&nbsp;&nbsp;Listening music based on category. In website, songs are separated by Albums. And these albums are separated based on the artists.</p>
+          <div class="project-base">
+            <p>2024</p>
+          </div>
+        </div>
+        <div class="col-4 img-div">
+          <img src="/photo/Music.png" class="img" id="Img">
+        </div>
+      </div>
+    </a>
+    </div>
+  </div>
+  <div class="col-lg-6 col-12 col-md-6 d-flex">
+    <div class="project-card d-flex flex-column">
+      <a href="https://github.com/HanLinnThaw" class="project-link" id="project-link">
+      <div class="row">
+        <div class="col-8">
+          <div class="project-title">
+            <h4>Event Management System</h4>
+          </div>
+          <p class="unique">&nbsp;&nbsp;Managing the events based on the customer's requirements with two user sides. With many advance features.</p>
+          <div class="project-base">
+            <p>2024</p>
+          </div>
+        </div>
+        <div class="col-4 img-div">
+          <img src="/photo/man.jpg" class="img" id="Img2">
+        </div>
+      
+      </div>
+    </a>
+    </div>
+  </div>
+  <div class="col-lg-6 col-12 col-md-6 d-flex">
+    <div class="project-card d-flex flex-column">
+      <a href="https://github.com/HanLinnThaw" class="project-link" id="project-link">
+        <div class="row">
+          <div class="col-8">
+            <div class="project-title">
+              <h4>Hospital Appoinement System</h4>
+            </div>
+            <p class="unique">&nbsp;&nbsp;Making an appoinement with account. The patients can make a booking to their prefer doctor with different times.</p>
+            <div class="project-base">
+              <p>2024</p>
+            </div>
+            
+          </div>
+          <div class="col-4 img-div">
+            <img src="/photo/app.jpg" class="img" id="Img3" width="fit-content" height="fit-content">
+          </div>
+        
+        </div>
+      </a>
+    </div>
+  </div>
+  
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Me</h2>
+<div class="container">
+  <div class="row">
+    <div class="Title">
+      <h6 class="heading-section">I'm open for any suggestion or just to have a chat</h6>
+    </div>
+  </div>
+  <div class="container bootstrap snippets bootdeys">
+    <div class="row">
+        <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+                <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
+                  <a href="https://www.google.co.th/maps/place/Baan+U+Dee+-+Mee+Suk+(UDMS)/@13.7086854,100.6097246,17z/data=!3m1!4b1!4m6!3m5!1s0x311d5fedd5773f6d:0x17f4bcb06fbb5a64!8m2!3d13.7086854!4d100.6097246!16s%2Fg%2F1ptvzgdr_?hl=en&entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D">
+                    <div class="content content1s">
+                      <div class="contact-info">
+                        <h6 class="category">Address</h6>
+                      </div>
+                      <h3 class="title"><span class="fa fa-map-marker icon2"></span></h3>
+                      <div class="">
+                        <p class="description">UDMS Residence, 29 On Nut 10 Alley, Suan Luang, Bangkok 10250 </p>
+                      </div>
+                  </div>
+                  </a>
+                    
+                </div> <!-- end card -->
+            </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+                <div class="card card-just-text" data-background="color" data-color="green" data-radius="none">
+                  <a href="tel:+66611072490">
+                    <div class="content">
+                      <div class="contact-info">
+                        <h6 class="category">Phone</h6>
+                      </div>
+                      <h3 class="title"><span class="fa fa-map-marker icon2"></span></h3>
+                      <div class="">
+                        <p class="description">Phone:+95-9799357599, +66-611072490</p>
+                      </div>
+                    </div>
+                  </a>
+                  
+                </div> <!-- end card -->
+            </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-6 content-card">
+            <div class="card-big-shadow">
+                <div class="card card-just-text" data-background="color" data-color="yellow" data-radius="none">
+                  <a href="mailto:hanlin12367@example.com">
+                    <div class="content">
+                      <div class="contact-info">
+                        <h6 class="category">Emails</h6>
+                      </div>
+                      <h3 class="title"><span class="fa fa-map-marker icon2"></span></h3>
+                      <div class="">
+                        <p class="description">Email:hanlin12367@gmail.com</p>
+                      </div>
+                    </div>
+                  </a>
+                  
+                </div> <!-- end card -->
+            </div>
+        </div>
+        
+        
+    </div>
+    </div>
+
+</div>
+</section>
+  <footer>
+        <p class="ic1">
+            <a href="https://www.facebook.com/" id="iconlink" class="iconLink">
+              <img src="/photo/m.png" class="icon11" alt="My Icon" width="30" height="30">
+            </a>
+            <a href="https://www.instagram.com/hanlinn_95?igsh=MWV3MnVlZWFoMnE2eg%3D%3D&utm_source=qr" id="iconlink1" class="iconLink">
+              <img src="/photo/i.png" class="icon11"  alt="My Icon" width="30" height="30">
+            </a>
+            <a href="https://github.com/HanLinnThaw" id="iconlink2" class="iconLink">
+              <img src="/photo/g.png" class="icon11" alt="My Icon" width="30" height="30">
+            </a>
+            <a href="https://www.linkedin.com/in/han-lin-83252833a/" id="iconlink3" class="iconLink">
+              <img src="/photo/l.png" class="icon11" alt="My Icon" width="30" height="30">
+            </a>
+          </p>
+        <p class="footer">© 2025 Han Linn Thaw. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/portfolio.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/fc596df623.js" crossorigin="anonymous"></script>
+  
+</body>
+</html>
