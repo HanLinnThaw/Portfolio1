@@ -942,3 +942,468 @@ ul.list li.collab {
 .footer{
   margin-bottom: 0;
 }
+
+/* PROJECTS: 50% ACADEMIC / 50% PROFESSIONAL */
+
+#projects .projects-two-column {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#projects .projects-column {
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 0;
+}
+
+#projects .project-category-title {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+/* Academic projects: one card per row */
+
+#projects .academic-project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#projects .academic-project-list
+.portfolio-project-link {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Prevent cards from stretching vertically */
+
+#projects .academic-project-list
+.portfolio-project-card {
+    width: 100%;
+    height: auto;
+    min-height: 210px;
+}
+
+/* Professional projects: compact list */
+
+#projects .professional-project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+#projects .professional-project-item {
+    width: 100%;
+    height: auto;
+    min-height: 115px;
+}
+
+/* Tablets and mobile: stack both sections */
+
+@media (max-width: 767px) {
+
+    #projects .projects-column {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #projects .projects-column + .projects-column {
+        margin-top: 35px;
+    }
+
+    #projects .project-category-title {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+
+    #projects .academic-project-list
+    .portfolio-project-card {
+        min-height: 180px;
+    }
+
+    #projects .professional-project-item {
+        min-height: 100px;
+    }
+}
+
+/* PROJECT CATEGORY HEADINGS */
+
+.project-category-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 35px 0 25px;
+    text-align: left;
+    color: #222;
+}
+
+.professional-title {
+    margin-top: 55px;
+}
+
+/* PROJECT LINK */
+
+.portfolio-project-link {
+    display: block;
+    height: 100%;
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.portfolio-project-link:hover {
+    color: inherit;
+}
+
+/* PROJECT CARD */
+
+.portfolio-project-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    width: 100%;
+    height: 100%;
+    min-height: 230px;
+
+    padding: 25px;
+    background-color: #e1d4b0;
+    border-radius: 18px;
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.portfolio-project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* PROJECT TEXT */
+
+.portfolio-project-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.portfolio-project-content h4 {
+    font-size: 21px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    color: #111;
+}
+
+.portfolio-project-content p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 0 18px;
+    color: #333;
+}
+
+.portfolio-project-year {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+}
+
+/* PROJECT IMAGE */
+
+.portfolio-project-image {
+    flex: 0 0 115px;
+    width: 115px;
+    height: 115px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.portfolio-project-image i {
+    font-size: 65px;
+    color: #795e37;
+}
+
+/* TABLET */
+
+@media (max-width: 991px) {
+    .portfolio-project-card {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .portfolio-project-image {
+        flex-basis: 85px;
+        width: 85px;
+        height: 85px;
+    }
+
+    .portfolio-project-content h4 {
+        font-size: 18px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 575px) {
+    .portfolio-project-card {
+        min-height: 190px;
+        padding: 18px;
+        gap: 12px;
+    }
+
+    .portfolio-project-image {
+        flex-basis: 75px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .portfolio-project-image i {
+        font-size: 45px;
+    }
+
+    .portfolio-project-content h4 {
+        font-size: 17px;
+    }
+
+    .portfolio-project-content p {
+        font-size: 13px;
+    }
+
+    .project-category-title {
+        font-size: 23px;
+    }
+}
+
+/* PROJECTS: 50% ACADEMIC / 50% PROFESSIONAL */
+
+#projects .projects-two-column {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#projects .projects-column {
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 0;
+}
+
+#projects .project-category-title {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+/* Academic projects: one card per row */
+
+#projects .academic-project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#projects .academic-project-list
+.portfolio-project-link {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Prevent cards from stretching vertically */
+
+#projects .academic-project-list
+.portfolio-project-card {
+    width: 100%;
+    height: auto;
+    min-height: 210px;
+}
+
+/* Professional projects: compact list */
+
+#projects .professional-project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+#projects .professional-project-item {
+    width: 100%;
+    height: auto;
+    min-height: 115px;
+}
+
+/* Tablets and mobile: stack both sections */
+
+@media (max-width: 767px) {
+
+    #projects .projects-column {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #projects .projects-column + .projects-column {
+        margin-top: 35px;
+    }
+
+    #projects .project-category-title {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+
+    #projects .academic-project-list
+    .portfolio-project-card {
+        min-height: 180px;
+    }
+
+    #projects .professional-project-item {
+        min-height: 100px;
+    }
+}
+
+/* ==========================================
+   PROFESSIONAL PROJECTS - FIXED BOX DESIGN
+========================================== */
+
+#projects .professional-project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+/* Professional project box */
+
+#projects .professional-project-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+
+    width: 100%;
+    min-height: 125px;
+    height: auto;
+
+    padding: 20px;
+
+    background-color: #e1d4b0;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+
+    text-align: left;
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+
+#projects .professional-project-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Project icon container */
+
+#projects .professional-project-icon {
+    flex: 0 0 60px;
+
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f2e2b1;
+    border-radius: 12px;
+}
+
+/* Icon */
+
+#projects .professional-project-icon i {
+    font-size: 28px;
+    color: #795e37;
+}
+
+/* Project content */
+
+#projects .professional-project-details {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Project title */
+
+#projects .professional-project-details h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    margin: 0 0 8px;
+}
+
+/* Description */
+
+#projects .professional-project-details p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0 0 8px;
+}
+
+/* Technologies */
+
+#projects .portfolio-project-tech {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #795e37;
+    line-height: 1.5;
+}
+
+/* Mobile responsive */
+
+@media (max-width: 575px) {
+
+    #projects .professional-project-item {
+        padding: 15px;
+        gap: 12px;
+        min-height: 110px;
+    }
+
+    #projects .professional-project-icon {
+        flex: 0 0 45px;
+        width: 45px;
+        height: 45px;
+    }
+
+    #projects .professional-project-icon i {
+        font-size: 22px;
+    }
+
+    #projects .professional-project-details h4 {
+        font-size: 16px;
+    }
+
+    #projects .professional-project-details p {
+        font-size: 13px;
+    }
+
+    #projects .portfolio-project-tech {
+        font-size: 12px;
+    }
+}
+
